@@ -21,7 +21,7 @@ function Todo(props) {
     )
 }
 
-function Todos() {
+function BestTodos() {
     const todoList = JSON.parse(window.localStorage.getItem('todoList'));
 
     const [todos, setTodos] = useState(todoList);
@@ -95,4 +95,4 @@ function Todos() {
     )
 }
 
-export default Todos;
+export default BestTodos;

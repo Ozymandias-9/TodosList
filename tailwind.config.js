@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        slideOut: 'slideOut .5s ease-in 1',
+        slideOut: 'slideOut .5s ease-out 1',
         slideIn: 'slideIn .7s ease-out 1',
       },
       keyframes: {

@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Todos from './Todos'
+import BestTodos from './BestTodos';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Todos />
+    <BestTodos />
   </React.StrictMode>,
   document.getElementById('root')
 );
